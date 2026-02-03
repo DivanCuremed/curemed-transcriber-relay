@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
 });
 
 // ============================================================
-// 5) WS SERVER (upgrade only)
+// 5) WSS SERVER (upgrade only)
 // ============================================================
 const wss = new WebSocketServer({ noServer: true });
 
